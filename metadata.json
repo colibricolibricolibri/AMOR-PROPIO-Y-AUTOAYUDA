@@ -1,0 +1,7 @@
+{
+  "name": "Almanaque de amor propio y autoayuda",
+  "description": "Una aplicación de amor propio y autoayuda basada en el método Ho'oponopono y afirmaciones diarias para la transformación interior. ",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
