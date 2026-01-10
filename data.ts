@@ -378,7 +378,7 @@ export const DAYS_CONTENT: DayContent[] = [
       "Todo llega en su tiempo.",
       "Todo sana si lo aceptas."
     ],
-    mantra: "Flores de primavera",
+    mantra: "Flores de primavera, flores de primavera, flores de primavera",
     mantraDescription: "Eres abundancia plena, materializa tus deseos.",
     image: "https://i.ibb.co/WJSd89g/day28.png"
   },

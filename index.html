@@ -19,13 +19,20 @@
             background-color: #fafaf9; /* Blanco cálido / Stone-50 */
         }
         
+        /* Estilo para letras amarillas con contorno negro solicitado */
+        .yellow-outlined {
+            color: #ffcc00 !important;
+            text-shadow: 
+                -1.5px -1.5px 0 #000,  
+                 1.5px -1.5px 0 #000,
+                -1.5px  1.5px 0 #000,
+                 1.5px  1.5px 0 #000,
+                 0px    2px   4px rgba(0,0,0,0.3);
+        }
+
         /* Estilos de color para textos */
         .text-outline-red {
             color: #880808 !important;
-        }
-
-        .text-outline-yellow {
-            color: #ffcc00 !important;
         }
 
         .text-outline-black {
@@ -85,6 +92,16 @@
         ::-webkit-scrollbar-thumb {
           background: #d6d3d1;
           border-radius: 10px;
+        }
+
+        /* Ajuste específico para la primera letra capitular con contorno */
+        .capitular::first-letter {
+            color: #ffcc00 !important;
+            text-shadow: 
+                -2px -2px 0 #000,  
+                 2px -2px 0 #000,
+                -2px  2px 0 #000,
+                 2px  2px 0 #000;
         }
     </style>
     <script>
